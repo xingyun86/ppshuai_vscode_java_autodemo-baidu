@@ -11,6 +11,7 @@ vscode settings中搜索maven for Java节点项:
 firefox:http://www.firefox.com.cn/download/
 
 4.配置镜像
+找到maven目录下的settings.xml,打开后在mirrors节点添加如下命令:
 在mirrors节点中，添加镜像下载地址
 ```
 <mirror>
