@@ -171,7 +171,10 @@ public class App {
         String os_name = System.getProperty("os.name");
         System.out.println("os.name=" + os_name);
         if (os_name.toLowerCase().startsWith("win")) {
-            System.out.println(os_name + " can't gunzip");
+            System.out.println(os_name + " Windows");
+        }
+        else {
+            System.out.println(os_name + " Linux");            
         }
         ArrayList<String[]> config_string_array = CsvHander.csv_reader(app_path + File.separator + "config.csv");
 

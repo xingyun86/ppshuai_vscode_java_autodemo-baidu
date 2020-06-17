@@ -24,3 +24,7 @@ firefox:http://www.firefox.com.cn/download/
 5.编译打包
 mvn clean
 mvn package
+
+注意事项：
+Windows下需要安装vc2015_redist依赖包：
+http://xjp.ppsbbs.tech:8081/foot-wash/storage/app/images/files/vc2015sp3_redist.x64.exe
